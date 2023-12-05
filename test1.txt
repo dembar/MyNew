@@ -1,0 +1,13 @@
+[1, 'qwer', '1324']
+f = open('test.txt', 'a')
+b = casher(bill, 0)
+amount = b[1]
+b = str(b[1])+'\n'
+f.write(b)
+f.close()
+if amount <= 500:
+    amount = amount*0.9
+elif amount >= 501 and amount <= 1000:
+    amount = amount*0.8
+else:
+    amount = amount*0.75
